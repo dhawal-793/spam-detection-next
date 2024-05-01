@@ -64,6 +64,27 @@
       --input: 217.2 32.6% 17.5%;
       --ring: 212.7 26.8% 83.9%;
     }
+    .animatedHeading {
+      width: fit-content;
+      background-clip: text;
+      background-image: linear-gradient(
+        45deg,
+        #09deff,
+        #22d3ee,
+        #3983f5,
+        #0066ff
+      );
+      background-size: 120%;
+      animation: customAnimation 2s ease-in-out 0s infinite alternate;
+    }
+    @keyframes customAnimation {
+      0% {
+        background-position: left;
+      }
+      100% {
+        background-position: right;
+      }
+    }
   }
 
   @layer base {
