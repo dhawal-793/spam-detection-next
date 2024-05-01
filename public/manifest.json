@@ -1,0 +1,22 @@
+{
+  "name": "Spam Detector",
+  "short_name": "SD",
+  "description": "Spam Detector is a Hack-A-Vishkar hackathon project on spam email detection system using python ml models",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon3.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon4.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
