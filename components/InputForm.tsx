@@ -27,7 +27,7 @@ const contentTypeEnum = z.enum(allowedContentTypes);
 
 const formSchema = z.object({
   prediction_content: z.string().min(5, {
-    message: "content must be at least 2 characters.",
+    message: "content must be at least 5 characters.",
   }),
   content_type: contentTypeEnum.default("email")
 })
